@@ -9,6 +9,8 @@ public class AppConfig {
     public HelloWorld getHelloWorld() {
         HelloWorld helloWorld = new HelloWorld();
         helloWorld.setMessage("Hello World!");
+        helloWorld.setMessage("Hello World!");
+        helloWorld.setMessage("Hello World!");
         return helloWorld;
     }
 
