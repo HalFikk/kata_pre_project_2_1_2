@@ -19,6 +19,8 @@ public class AppConfig {
     public Cat getCat() {
         Cat cat = new Cat();
         System.out.println(cat);
+        System.out.println(cat);
+        System.out.println(cat);
         return cat;
     }
 }
