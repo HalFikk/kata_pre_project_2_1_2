@@ -16,6 +16,7 @@ public class AppConfig {
     @Scope("prototype")
     public Cat getCat() {
         Cat cat = new Cat();
+        System.out.println(cat);
         return cat;
     }
 }
