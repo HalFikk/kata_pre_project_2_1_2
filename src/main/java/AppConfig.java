@@ -9,6 +9,8 @@ public class AppConfig {
     public HelloWorld getHelloWorld() {
         HelloWorld helloWorld = new HelloWorld();
         helloWorld.setMessage("Hello World!");
+        helloWorld.setMessage("Hello World!");
+        helloWorld.setMessage("Hello World!");
         return helloWorld;
     }
 
@@ -16,6 +18,7 @@ public class AppConfig {
     @Scope("prototype")
     public Cat getCat() {
         Cat cat = new Cat();
+        System.out.println(cat);
         return cat;
     }
 }
